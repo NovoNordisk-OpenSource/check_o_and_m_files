@@ -21,7 +21,7 @@ runs:
     - name: "Check for O and M documents"
       id: o_and_m_files
       run: |
-        SCRIPT_HOME="/home/runner/work/_actions/NovoNordisk-OpenSource/check_o_and_m_files/main/scripts/" 
+        SCRIPT_HOME="/home/runner/work/_actions/NovoNordisk-OpenSource/check_o_and_m_files/v1.0.0/scripts/" 
         echo "Checking for O and M documents"
         SCRIPT_PATH="${SCRIPT_HOME}o_and_m.sh"
         chmod +x $SCRIPT_PATH
